@@ -47,10 +47,10 @@ chrome.runtime.onMessage.addListener(function(message, sender, cb) {
 
     switch (message.name) {
       case 'addView':
-        requesrUrl = 'http://9a23f0be.ngrok.io/user/movie/kinopoisk/' + id;
+        requesrUrl = 'http://ba1467be.ngrok.io/user/views/kinopoisk/' + id;
         break;
       case 'addWant':
-        requesrUrl = 'http://9a23f0be.ngrok.io/user/movie/kinopoisk/' + id;
+        requesrUrl = 'http://ba1467be.ngrok.io/user/wants/kinopoisk/' + id;
         break;
       default:
         break;
